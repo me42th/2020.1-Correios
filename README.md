@@ -1,1 +1,1 @@
-# Grupo 3 de Requisitos de Software -- Moovit
+# Grupo 3 de Requisitos de Software
