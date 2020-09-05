@@ -5,10 +5,14 @@ repo_url: 'https://github.com/Requisitos-de-Software/2020.1-Grupo3'
 
 copyright: 'Copyright &copy; 2020 PicPay'
 
+nav:
+  - Home: index.md
+  - Planejamento : ''
+
 theme :
     name: material
-    favicon: /images/favicon.ico
-    logo: /images/logo.png
+    favicon: ./images/favicon.ico
+    logo: ./images/logo.png
     language: pt
     palette:
       primary: green
