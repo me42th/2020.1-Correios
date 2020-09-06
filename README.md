@@ -1,11 +1,14 @@
+<div style="display:flex; justify-content:center">
+<img src="./docs/images/logo-correios.png"/>
+</div>
 
-![img](./docs/images/picpay-logo.png)
 - - -
 # Sobre
-Respositório da disciplina **Requisitos de Software**, com o objetivo de levantar os requisitos funcionais e não funcionais do aplicativo **PicPay** (*[PlayStore](https://play.google.com/store/apps/details?id=com.picpay&hl=pt_BR)*, *[AppStore](https://apps.apple.com/br/app/picpay-pagar-e-receber-conta/id561524792)*), assim como levantar a pré-rastreablidade, elicitação, modelagem, análise e pós-rastreabilidade e outros artefatos necessários para a disciplina.
+Respositório da disciplina **Requisitos de Software**, com o objetivo de levantar os requisitos funcionais e não funcionais do aplicativo dos **Correios** (*[PlayStore](https://play.google.com/store/apps/details?id=br.com.correios.preatendimento&hl=pt_BR)*, *[AppStore](https://apps.apple.com/br/app/correios/id1399617917#?platform=iphone)*), assim como levantar a pré-rastreablidade, elicitação, modelagem, análise e pós-rastreabilidade e outros artefatos necessários para a disciplina.
 - - -
-# Sobre o PicPay
-O PicPay é um aplicativo fintech disponível para download em celular Android e iPhone (iOS) que funciona como uma carteira digital. O programa permite fazer compras pelo smartphone com cartão de crédito ou valor de transferência. O usuário pode fazer recarga no celular, parcelamento de boletos e serviços, além de ser possível dividir a conta de faturas, como água e energia, e pagar em mais de 2,5 milhões estabelecimentos diretamente ou através de parcerias com adquirentes. Também é possível reaver parte do pagamento efetuado através de promoções eventuais. Em maio de 2020 atingiu a marca de 20 milhões de usuários no Brasil.
+# Sobre o aplicativo dos Correios
+Com o objetivo de fornecer soluções acessíveis, confiáveis e cada vez mais adaptadas ao perfil dos consumidores, os Correios aprimoraram a interface de seu aplicativo que oferece facilidades como realizar a pré-postagem de sua encomenda, obtendo o número de identificação que deverá ser apresentado em qualquer agência dos Correios, onde será finalizado o atendimento; buscar as agências mais próximas de sua localização; simular preços e prazos para cada tipo de postagem; incluir e salvar dados dos objetos informando o código de rastreamento e
+visualizar a data prevista da entrega de sua encomenda;
 - - -
 # Equipe
 
@@ -17,4 +20,7 @@ Matrícula | Nome | E-mail | Git |
 160016169 | Nicalo Ribeiro Dourado Araujo| nicalo63@gmail.com | nicaloribeiro |
 ||Flavio Vieira Leao | | flaviovl|
 - - -
-[![Foo](./docs/images/portal-fga.png)](https://fga.unb.br/)
+
+<div style="display:flex; justify-content:center">
+<a href="https://fga.unb.br/" target="blank"> <img src="./docs/images/portal-fga.png"/></a>
+</div>

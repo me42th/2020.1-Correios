@@ -1,9 +1,7 @@
-site_name: Requisitos de Software - PicPay
+site_name: Requisitos de Software - Correios
 
-repo_name: '2020.1-PicPay'
+repo_name: '2020.1-Correios'
 repo_url: 'https://github.com/Requisitos-de-Software/2020.1-Grupo3'
-
-copyright: 'Copyright &copy; 2020 PicPay'
 
 nav:
   - Home: index.md
@@ -12,7 +10,8 @@ nav:
 theme :
     name: material
     favicon: ./images/favicon.ico
-    logo: ./images/logo.png
+    logo: ./images/logo-correios.png
     language: pt
     palette:
-      primary: green
+      primary: blue
+
