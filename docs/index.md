@@ -20,8 +20,8 @@ Com o objetivo de fornecer soluções acessíveis, confiáveis e cada vez mais a
 • Acessar o serviço de Minhas Mensagens por meio da qual os Usuários (Destinatários) poderão consultar suas mensagens de caráter formal/oficial, enviadas por Emissores (Remetentes);  
 
 
-![img](./images/about1.png)
-![img](./images/about2.png)
+![img](./images/sobre-correios.png)
+![img](./images/sobre-correios-2.png)
 - - -
 ## Contribuidores
 Matrícula | Nome | E-mail | Git | 
