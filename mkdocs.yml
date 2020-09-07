@@ -1,11 +1,12 @@
 site_name: Requisitos de Software - Correios
 
 repo_name: '2020.1-Correios'
-repo_url: 'https://github.com/Requisitos-de-Software/2020.1-Grupo3'
+repo_url: 'https://github.com/Requisitos-de-Software/2020.1-Correios'
 
 nav:
   - Home: index.md
-  - Planejamento : ''
+  - Planejamento :
+    - Ferramentas : planejamento/ferramentas.md
 
 theme :
     name: material
