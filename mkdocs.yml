@@ -6,7 +6,7 @@ repo_url: 'https://github.com/Requisitos-de-Software/2020.1-Grupo3'
 nav:
   - Home: index.md
   - Planejamento : ''
-    - Roadmap: planejamento/Roadmap.md
+    - Roadmap: docs/planejamento/Roadmap.md
 
 theme :
     name: material
