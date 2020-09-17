@@ -1,6 +1,6 @@
-<div style="display:flex; justify-content:center">
-<img src="./docs/images/logo-correios.png"/>
-</div>
+<p align='center'>
+  <img src="./docs/images/logo-correios.png"/>
+</p>
 
 - - -
 # Sobre
@@ -21,6 +21,6 @@ Matrícula | Nome | E-mail | Git |
 ||Flavio Vieira Leao | | flaviovl|
 - - -
 
-<div style="display:flex; justify-content:center">
-<a href="https://fga.unb.br/" target="blank"> <img src="./docs/images/portal-fga.png"/></a>
-</div>
+<p align='center'>
+  <a href="https://fga.unb.br/" target="blank"> <img src="./docs/images/portal-fga.png"/></a>
+</p>
