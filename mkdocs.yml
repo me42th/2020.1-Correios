@@ -10,6 +10,8 @@ nav:
       - Ferramentas: planejamento/ferramentas.md
   - Elicitação:
       - Entrevista: elicitacao/entrevista.md
+      - StoryTelling: 
+        - StoryTelling v1: elicitacao/storytelling.md
 
 theme:
   name: material
