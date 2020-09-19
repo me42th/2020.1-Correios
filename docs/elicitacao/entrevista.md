@@ -11,16 +11,27 @@ A entrevista é uma das técnicas tradicionais mais simples de utilizar e que pr
 
 - - -
 
-### Roteiro 
-
-1. Você já utilizou algum aplicativo para suas encomendas ? Se sim, qual ?
-2. Você consegue acompanhar os seus pedidos com facilidade dentro do aplicativo ? Quanto tempo costuma demorar ?
-3. Quais funcionalidades você mais utiliza no aplicativo ?
-4. O aplicativo já te ajudou a identificar problemas durante a entrega, como varia, espoliação, extravio, roubo etc ?
-
+## Roteiro 
+* Devido à pandemia, as entrevistas serão feitas em ferramentas de comunicação online, seja por conversa por voz ou texto. Dentre as ferramentas pensadas para tal, estão o *Microsoft Teams*, *Discord*, *WhatsApp* e *Telegram*.
+* A entrevista deve ter um tempo máximo de 20 minutos.
+* Será explicado previamente ao entrevistado o objetivo das perguntas e para que serão utilizadas, dando a opção de anonimato para as respostas.
+  
 - - -
 
-## Entrevistas 
+### Perguntas elaboradas
+1. Qual a sua idade?
+2. Você já utilizou algum aplicativo ou ferramenta para acompanhar suas encomendas ? Se sim, qual ?
+3. Se já usou alguma outra ferramenta ou app, você consegue acompanhar os seus pedidos com facilidade dentro do aplicativo ? Quanto tempo costuma demorar ?
+4. Quais funcionalidades você mais utiliza na ferramenta/aplicativo ?
+5. Ele já te ajudou a identificar problemas durante a entrega, como varia, espoliação, extravio, roubo etc ?
+6. Você já utilizou o aplicativo dos Correios?
+7. Você precisa de mais ou menos quanto tempo para realizar uma ação no aplicativo?
+8. Já conseguiu encontrar alguma agência pelo aplicativo dos Correios?
+9. A marcação de atendimento ocorreu corretamente?
+10. Já conseguiu se comunicar diretamente com o remetente de sua encomenda pelo aplicativo?
+- - -
+
+## Entrevistas (A realizar)
 
 ### Entrevista 01
 
@@ -34,6 +45,7 @@ A entrevista é uma das técnicas tradicionais mais simples de utilizar e que pr
 | Data     | Versão | Descrição           | Autor(es)        |
 | -------- | ------ | ------------------- | ---------------- |
 | 15/09/20 | 0.1    | Adição das peguntas | Gustavo Nogueira |
+| 18/09/20 | 0.2    | Adição de novas perguntas e novas informações no roteiro | Nícalo Ribeiro |
 
 - - - 
 
