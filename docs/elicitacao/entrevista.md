@@ -31,9 +31,44 @@ A entrevista é uma das técnicas tradicionais mais simples de utilizar e que pr
 
 - - -
 
-## Entrevistas (A realizar)
+## Entrevistas
 
 ### Entrevista 01
+
+Guilherme Nogueira - 21 anos <br/>
+<span style='font-size: 0.8em'> Entrevistador: Gustavo Nogueira</span>
+
+**1. Você já utilizou algum outro aplicativo ou ferramenta para acompanhar suas encomendas ? Se sim, qual(is) ?**
+
+Além do app dos correios, utilizei o site Loggi Logística. 
+
+**2. Você consegue acompanhar os seus pedidos com facilidade dentro do aplicativo ? Quanto tempo costuma demorar ?**
+
+Sim, consigo acompanhar a partir do meu cpf. Costumo demorar menos de 1 minuto.
+
+**3. Quais funcionalidades você mais utiliza no aplicativo ?**
+
+Área de rastreamento. 
+
+**4. Você já passou por problemas, como atraso na entrega, devolução/entrega indevidas ou, ainda, por inconformidades que comprometam a integridade do conteúdo do objeto, como avaria, espoliação, extravio, roubo etc ? Se sim, o aplicativo te notificou de alguma maneira sobre esse(s) problema(s) ?**
+
+Nunca passei por esses problemas.
+
+**5. Você precisa de mais ou menos quanto tempo para realizar uma ação no aplicativo ?**
+
+Cerca de 3 minutos.
+
+**6. Já conseguiu encontrar alguma agência pelo aplicativo ?**
+
+Sim, consegui consultar agências próximas da minha casa utilizando o gps.
+
+**7. O aplicativo já te ajudou a agilizar o processo de postagem de objeto ?**
+
+Nunca fiz uma postagem.
+
+**8. Você já conseguiu se comunicar diretamente com o remetente de sua encomenda pelo aplicativo ?**
+
+Não usei essa funcionalidade.
 
 ### Entrevista 02
 
@@ -46,7 +81,9 @@ A entrevista é uma das técnicas tradicionais mais simples de utilizar e que pr
 | -------- | ------ | -------------------------------------------------------- | ---------------- |
 | 15/09/20 | 0.1    | Adição das peguntas                                      | Gustavo Nogueira |
 | 18/09/20 | 0.2    | Adição de novas perguntas e novas informações no roteiro | Nícalo Ribeiro   |
-| 15/09/20 | 0.3    | Revisão das peguntas                                     | Gustavo Nogueira |
+| 22/09/20 | 0.3    | Revisão das peguntas                                     | Gustavo Nogueira |
+| 23/09/20 | 0.4    | Adição da primeira entrevista                            | Gustavo Nogueira |
+
 - - - 
 
 ## Referências
