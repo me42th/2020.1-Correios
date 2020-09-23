@@ -9,6 +9,7 @@ nav:
       - Roadmap: planejamento/roadmap.md
       - Ferramentas: planejamento/ferramentas.md
   - Elicitação:
+      - Instrospecção: elicitacao/instrospeccao.md
       - Entrevista: elicitacao/entrevista.md
       - StoryTelling: 
         - StoryTelling v1: elicitacao/storytelling.md
