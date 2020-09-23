@@ -19,16 +19,16 @@ A entrevista é uma das técnicas tradicionais mais simples de utilizar e que pr
 - - -
 
 ### Perguntas elaboradas
-1. Qual a sua idade?
-2. Você já utilizou algum aplicativo ou ferramenta para acompanhar suas encomendas ? Se sim, qual ?
-3. Se já usou alguma outra ferramenta ou app, você consegue acompanhar os seus pedidos com facilidade dentro do aplicativo ? Quanto tempo costuma demorar ?
-4. Quais funcionalidades você mais utiliza na ferramenta/aplicativo ?
-5. Ele já te ajudou a identificar problemas durante a entrega, como varia, espoliação, extravio, roubo etc ?
-6. Você já utilizou o aplicativo dos Correios?
-7. Você precisa de mais ou menos quanto tempo para realizar uma ação no aplicativo?
-8. Já conseguiu encontrar alguma agência pelo aplicativo dos Correios?
-9. A marcação de atendimento ocorreu corretamente?
-10. Já conseguiu se comunicar diretamente com o remetente de sua encomenda pelo aplicativo?
+
+1. Você já utilizou algum outro aplicativo ou ferramenta para acompanhar suas encomendas ? Se sim, qual(is) ?
+2. Você consegue acompanhar os seus pedidos com facilidade dentro do aplicativo ? Quanto tempo costuma demorar ?
+3. Quais funcionalidades você mais utiliza no aplicativo ?
+4. Você já passou por problemas, como atraso na entrega, devolução/entrega indevidas ou, ainda, por inconformidades que comprometam a integridade do conteúdo do objeto, como avaria, espoliação, extravio, roubo etc ? Se sim, o aplicativo te notificou de alguma maneira sobre esse(s) problema(s) ?
+5. Você precisa de mais ou menos quanto tempo para realizar uma ação no aplicativo ?
+6. Já conseguiu encontrar alguma agência pelo aplicativo ?
+7. O aplicativo já te ajudou a agilizar o processo de postagem de objeto ?
+8. Você já conseguiu se comunicar diretamente com o remetente de sua encomenda pelo aplicativo ?
+
 - - -
 
 ## Entrevistas (A realizar)
@@ -42,11 +42,11 @@ A entrevista é uma das técnicas tradicionais mais simples de utilizar e que pr
 - - -
 ## Controle de versão
 
-| Data     | Versão | Descrição           | Autor(es)        |
-| -------- | ------ | ------------------- | ---------------- |
-| 15/09/20 | 0.1    | Adição das peguntas | Gustavo Nogueira |
-| 18/09/20 | 0.2    | Adição de novas perguntas e novas informações no roteiro | Nícalo Ribeiro |
-
+| Data     | Versão | Descrição                                                | Autor(es)        |
+| -------- | ------ | -------------------------------------------------------- | ---------------- |
+| 15/09/20 | 0.1    | Adição das peguntas                                      | Gustavo Nogueira |
+| 18/09/20 | 0.2    | Adição de novas perguntas e novas informações no roteiro | Nícalo Ribeiro   |
+| 15/09/20 | 0.3    | Revisão das peguntas                                     | Gustavo Nogueira |
 - - - 
 
 ## Referências
