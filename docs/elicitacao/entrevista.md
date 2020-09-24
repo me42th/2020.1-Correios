@@ -71,8 +71,40 @@ Nunca fiz uma postagem.
 Não usei essa funcionalidade.
 
 ### Entrevista 02
+Camilla Taverna - 19 anos <br/>
+<span style='font-size: 0.8em'> Entrevistador: Nícalo Ribeiro</span>
 
-### Entrevista 03
+**1. Você já utilizou algum outro aplicativo ou ferramenta para acompanhar suas encomendas ? Se sim, qual(is) ?**
+
+Sim, utilizei o Wish.
+
+**2. Você consegue acompanhar os seus pedidos com facilidade dentro do aplicativo ? Quanto tempo costuma demorar ?**
+
+Geralmente sim, costuma durar uns 2 minutos.
+
+**3. Quais funcionalidades você mais utiliza no aplicativo ?**
+
+Visualizo o catálogo de outros produtos (No aplicativo do Wish).  
+
+**4. Você já passou por problemas, como atraso na entrega, devolução/entrega indevidas ou, ainda, por inconformidades que comprometam a integridade do conteúdo do objeto, como avaria, espoliação, extravio, roubo etc ? Se sim, o aplicativo te notificou de alguma maneira sobre esse(s) problema(s) ?**
+
+Sim, alguns atrasos porém o aplicativo não notificou.
+
+**5. Você precisa de mais ou menos quanto tempo para realizar uma ação no aplicativo ?**
+
+Alguns minutos.
+
+**6. Já conseguiu encontrar alguma agência pelo aplicativo ?**
+
+Não, nunca utilizei esse funcionalidade.
+
+**7. O aplicativo já te ajudou a agilizar o processo de postagem de objeto ?**
+
+Não, nunca fiz uma postagem.
+
+**8. Você já conseguiu se comunicar diretamente com o remetente de sua encomenda pelo aplicativo ?**
+
+Não.
 
 - - -
 ## Controle de versão
@@ -83,6 +115,7 @@ Não usei essa funcionalidade.
 | 18/09/20 | 0.2    | Adição de novas perguntas e novas informações no roteiro | Nícalo Ribeiro   |
 | 22/09/20 | 0.3    | Revisão das peguntas                                     | Gustavo Nogueira |
 | 23/09/20 | 0.4    | Adição da primeira entrevista                            | Gustavo Nogueira |
+| 23/09/20 | 0.5    | Adição da segunda entrevista                            | Nícalo Ribeiro |
 
 - - - 
 
