@@ -136,7 +136,7 @@ Cerca de 1 minuto.
 
 **6. Já conseguiu encontrar alguma agência pelo aplicativo ?**
 
-Sim, consigo encotrar as agências próximas da minha localização.
+Sim, consigo encontrar as agências próximas da minha localização.
 
 **7. O aplicativo já te ajudou a agilizar o processo de postagem de objeto ?**
 
@@ -148,6 +148,31 @@ Não.
 
 ---
 
+## Requisitos Elicitados
+
+### Legenda :
+
+- ENT : Entrevista
+- RF : Requisito funcional
+- RN : Requisito não funcional
+
+### Resumo:
+
+- Total de requisitos identificados via introspecção : 8
+- Requisitos Funcionais : 5
+- Requisitos Não Funcionais : 3
+
+| Identificador | Descrição                                                            | Tipo  |
+| ------------- | -------------------------------------------------------------------- | ----- |
+| ENT01         | Deve ser intuitivo                                                   | RNF01 |
+| ENT02         | Deve ser fácil de aprender utilizar                                  | RNF02 |
+| ENT03         | Deve permitir o usuário rastrear objetos a partir do seu cpf         | RF01  |
+| ENT04         | Deve permitir o usuário buscar as agências a partir da localização   | RF02  |
+| ENT05         | Deve permitir o usuário salvar um objeto que deseja acompanhar       | RF03  |
+| ENT06         | Deve permitir o usuário receber notificações de rastreamento         | RF04  |
+| ENT07         | Deve permitir o usuário fazer pré-postagens                          | RF05  |
+| ENT08         | Deve permitir o usuário agilizar o processo de postagem de um objeto | RNF03 |
+
 ## Controle de versão
 
 | Data     | Versão | Descrição                                                | Autor(es)        |
@@ -158,6 +183,7 @@ Não.
 | 23/09/20 | 0.4    | Adição da primeira entrevista                            | Gustavo Nogueira |
 | 23/09/20 | 0.5    | Adição da segunda entrevista                             | Nícalo Ribeiro   |
 | 25/09/20 | 0.6    | Adição da terceira entrevista                            | Gustavo Nogueira |
+| 26/09/20 | 0.7    | Adição de tabela de requisitos elicitados                | Gustavo Nogueira |
 
 ---
 
