@@ -183,7 +183,7 @@ Não.
 | 23/09/20 | 0.4    | Adição da primeira entrevista                            | Gustavo Nogueira |
 | 23/09/20 | 0.5    | Adição da segunda entrevista                             | Nícalo Ribeiro   |
 | 25/09/20 | 0.6    | Adição da terceira entrevista                            | Gustavo Nogueira |
-| 26/09/20 | 0.7    | Adição de tabela de requisitos elicitados                | Gustavo Nogueira |
+| 26/09/20 | 0.7    | Adição da tabela de requisitos elicitados                | Gustavo Nogueira |
 
 ---
 
