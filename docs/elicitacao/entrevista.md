@@ -157,7 +157,7 @@ Não.
 | 22/09/20 | 0.3    | Revisão das peguntas                                     | Gustavo Nogueira |
 | 23/09/20 | 0.4    | Adição da primeira entrevista                            | Gustavo Nogueira |
 | 23/09/20 | 0.5    | Adição da segunda entrevista                             | Nícalo Ribeiro   |
-| 25/09/20 | 0.5    | Adição da terceira entrevista                            | Gustavo Nogueira |
+| 25/09/20 | 0.6    | Adição da terceira entrevista                            | Gustavo Nogueira |
 
 ---
 
