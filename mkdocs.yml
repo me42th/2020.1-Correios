@@ -11,8 +11,9 @@ nav:
   - Elicitação:
       - Instrospecção: elicitacao/instrospeccao.md
       - Entrevista: elicitacao/entrevista.md
-      - StoryTelling: 
-        - StoryTelling v1: elicitacao/storytelling.md
+      - StoryTelling:
+          - StoryTelling v1: elicitacao/storytelling.md
+      - Requisitos Elicitados & Priorização: elicitacao/requisitos_priorizacao.md
 
 theme:
   name: material

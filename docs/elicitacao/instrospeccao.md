@@ -1,5 +1,9 @@
 # Introspecção
 
+---
+
+## Introdução
+
 É uma técnica rica e profunda que visa entender quais propriedades o sistema deve possuir. Demanda imaginação de quem está levantando os requisitos para estabelecer o que ele gostaria que estivesse no sistema, a fim de executar uma determinada tarefa. Apesar de ser uma técnica útil, a instrospeccção de um especialista, por exemplo, pode não ser reflitida na experiência real do usuário.
 
 ---
@@ -122,7 +126,7 @@
 | INT05         | Deve ser possível fazer cadastro                                                       | RF04  |
 | INT06         | Deve ser possível recuperar a senha de acesso                                          | RF05  |
 | INT07         | Deve ser possível navegar de forma segura no aplicativo                                | RNF02 |
-| INT08         | Deve ser fácil identificar o local de *login*/cadastro                                 | RNF03 |
+| INT08         | Deve ser fácil identificar o local de _login_/cadastro                                 | RNF03 |
 | INT09         | Deve informar os termos de política e privacidade no momento do cadastro               | RF06  |
 | INT10         | Deve ter uma interface agradável/intuitiva                                             | RNF04 |
 | INT11         | Deve ser possível identificar as funcionalidades que não precisam de login             | RNF05 |
@@ -161,6 +165,8 @@
 | INT44         | Deve ser possível adicionar endereços                                                  | RF39  |
 | INT45         | Deve ser possível editar um endereço salvo                                             | RF40  |
 | INT46         | Deve ser possível excluir um endereços salvos                                          | RF41  |
+
+---
 
 ## Controle de versão
 

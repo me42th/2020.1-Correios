@@ -46,7 +46,7 @@ Além do app dos correios, utilizei o site Loggi Logística.
 
 **2. Você consegue acompanhar os seus pedidos com facilidade dentro do aplicativo ? Quanto tempo costuma demorar ?**
 
-Sim, consigo acessar todo histórico de rastreamento a partir do meu cpf a qualquer hora do dia. Costumo demorar menos de 1 minuto.
+Sim, consigo acessar todo histórico de rastreamento, por meio do meu cpf, a qualquer hora do dia. Costumo demorar menos de 1 minuto.
 
 **3. Quais funcionalidades você mais utiliza no aplicativo ?**
 
@@ -175,6 +175,8 @@ Não.
 | ENT09         | Deve permitir o usuário fazer pré-postagens                               | RF07  |
 | ENT10         | Deve permitir o usuário agilizar o processo de postagem de um objeto      | RNF03 |
 | ENT11         | Deve ficar disponível a qualquer hora do dia                              | RNF04 |
+
+---
 
 ## Controle de versão
 
