@@ -46,7 +46,7 @@ Além do app dos correios, utilizei o site Loggi Logística.
 
 **2. Você consegue acompanhar os seus pedidos com facilidade dentro do aplicativo ? Quanto tempo costuma demorar ?**
 
-Sim, consigo acompanhar a partir do meu cpf. Costumo demorar menos de 1 minuto.
+Sim, consigo acessar todo histórico de rastreamento a partir do meu cpf a qualquer hora do dia. Costumo demorar menos de 1 minuto.
 
 **3. Quais funcionalidades você mais utiliza no aplicativo ?**
 
@@ -136,7 +136,7 @@ Cerca de 1 minuto.
 
 **6. Já conseguiu encontrar alguma agência pelo aplicativo ?**
 
-Sim, consigo encontrar as agências próximas da minha localização.
+Sim, consigo encontrar as agências próximas da minha localização, assim acessando as informações de uma agência.
 
 **7. O aplicativo já te ajudou a agilizar o processo de postagem de objeto ?**
 
@@ -158,20 +158,23 @@ Não.
 
 ### Resumo:
 
-- Total de requisitos identificados via introspecção : 8
-- Requisitos Funcionais : 5
-- Requisitos Não Funcionais : 3
+- Total de requisitos identificados via introspecção : 11
+- Requisitos Funcionais : 7
+- Requisitos Não Funcionais : 4
 
-| Identificador | Descrição                                                            | Tipo  |
-| ------------- | -------------------------------------------------------------------- | ----- |
-| ENT01         | Deve ser intuitivo                                                   | RNF01 |
-| ENT02         | Deve ser fácil de aprender utilizar                                  | RNF02 |
-| ENT03         | Deve permitir o usuário rastrear objetos a partir do seu cpf         | RF01  |
-| ENT04         | Deve permitir o usuário buscar as agências a partir da localização   | RF02  |
-| ENT05         | Deve permitir o usuário salvar um objeto que deseja acompanhar       | RF03  |
-| ENT06         | Deve permitir o usuário receber notificações de rastreamento         | RF04  |
-| ENT07         | Deve permitir o usuário fazer pré-postagens                          | RF05  |
-| ENT08         | Deve permitir o usuário agilizar o processo de postagem de um objeto | RNF03 |
+| Identificador | Descrição                                                                 | Tipo  |
+| ------------- | ------------------------------------------------------------------------- | ----- |
+| ENT01         | Deve ser intuitivo                                                        | RNF01 |
+| ENT02         | Deve ser fácil de aprender utilizar                                       | RNF02 |
+| ENT03         | Deve permitir o usuário visualizar o histórico de rastreamento de objetos | RF01  |
+| ENT04         | Deve permitir o usuário rastrear objetos a partir do seu cpf              | RF02  |
+| ENT05         | Deve permitir o usuário salvar um objeto que deseja acompanhar            | RF03  |
+| ENT06         | Deve permitir o usuário receber notificações de rastreamento              | RF04  |
+| ENT07         | Deve permitir o usuário buscar as agências a partir da localização        | RF05  |
+| ENT08         | Deve permitir o usuário acessar as informações de uma agência             | RF06  |
+| ENT09         | Deve permitir o usuário fazer pré-postagens                               | RF07  |
+| ENT10         | Deve permitir o usuário agilizar o processo de postagem de um objeto      | RNF03 |
+| ENT11         | Deve ficar disponível a qualquer hora do dia                              | RNF04 |
 
 ## Controle de versão
 
