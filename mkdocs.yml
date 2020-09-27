@@ -13,7 +13,7 @@ nav:
       - Entrevista: elicitacao/entrevista.md
       - StoryTelling:
           - StoryTelling v1: elicitacao/storytelling.md
-      - Requisitos Elicitados & Priorização: elicitacao/requisitos_priorizacao.md
+      - Requisitos & Priorização: elicitacao/requisitos_priorizacao.md
 
 theme:
   name: material
