@@ -8,12 +8,15 @@ nav:
   - Planejamento:
       - Roadmap: planejamento/roadmap.md
       - Ferramentas: planejamento/ferramentas.md
+  - Pré-Rastreabilidade:
+      - Rich Picture: preRastreabilidade/richpicture.md
   - Elicitação:
       - Instrospecção: elicitacao/instrospeccao.md
       - Entrevista: elicitacao/entrevista.md
       - StoryTelling:
           - StoryTelling v1: elicitacao/storytelling.md
-      - Requisitos & Priorização: elicitacao/requisitos_priorizacao.md
+  - Priorização:
+      - MoSCoW & First Things First: priorizacao/requisitos_priorizacao.md
 
 theme:
   name: material
