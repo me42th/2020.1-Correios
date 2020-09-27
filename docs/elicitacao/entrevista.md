@@ -158,9 +158,10 @@ Não.
 
 ### Resumo:
 
-- Total de requisitos identificados via introspecção : 11
+- Total de requisitos identificados via entrevista : 11
 - Requisitos Funcionais : 7
 - Requisitos Não Funcionais : 4
+
 
 | Identificador | Descrição                                                                 | Tipo  |
 | ------------- | ------------------------------------------------------------------------- | ----- |

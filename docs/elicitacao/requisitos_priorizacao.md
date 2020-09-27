@@ -26,8 +26,8 @@ Esta página é destinada a armazenar todos os requisitos obtidos por meio das t
 | ------------- | ------------------------------------------------------------------------------ | ------ | ------------------ |
 | RF01          | O aplicativo deve permitir o cadastro de usuários                              | [INT04][link-int]  | Must               |
 | RF02          | O aplicativo deve permitir o usuário alterar sua senha de acesso               | [INT05][link-int]  | Should             |
-| RF03          | O aplicativo deve o usuário fazer login                                        | [INT03][link-int]  | Must               |
-| RF04          | O aplicativo deve o usuário sair da conta(logout)                              | [INT04][link-int]  | Should             |
+| RF03          | O aplicativo deve permitir o usuário fazer login                               | [INT03][link-int]  | Must               |
+| RF04          | O aplicativo deve permitir o usuário sair da conta(logout)                     | [INT04][link-int]  | Should             |
 | RF05          | O aplicativo deve permitir o usuário cancelar sua conta                        | [INT13][link-int]  | Could              |
 | RF06          | O aplicativo deve permitir o usuário consultar os seus dados pessoais          | [INT12][link-int]  | Should             |
 | RF07          | O aplicativo deve permitir o usuário alterar os seus dados pessoais            | [INT12][link-int]  | Should             |
@@ -48,7 +48,7 @@ Esta página é destinada a armazenar todos os requisitos obtidos por meio das t
 |RF22| O aplicativo deve permitir o usuário buscar as agências mais próximas de sua localização em um raio de até 10 km |[INT22][link-int], [INT23][link-int], [ENT07][link-ent] |Should|
 |RF23| O aplicativo deve permitir o usuário buscar as agências mais próximas de um endereço ou cep em um raio de até 10 km |[INT21][link-int]| Should|
 |RF24| Ao buscar agências, o aplicativo de exibir um mapa para exibir as agẽncias mais próximas |[INT25][link-int] |Should|
-|RF25| Ao buscar agências, o aplicativo deve permitir o usuário selecionar as agências exibidas no mapa, assim tendo acesso as informações de uma agência |[INT26][link-int], [ENT08][link-ent] |Must|
+|RF25| Ao buscar agências, o aplicativo deve permitir o usuário selecionar as agências exibidas no mapa, assim tendo acesso as informações de uma agência |[INT26][link-int], [ENT08][link-ent] |Should|
 |RF26| O aplicativo deve permitir o usuário adicionar agências aos favoritos |[INT26][link-int] |Could|
 |RF27| O aplicativo deve permitir o usuário remover agências aos favoritos |[INT42][link-int] |Would|
 |RF28| O aplicativo deve permitir o usuário consultar as suas agências favoritas |[INT42][link-int] |Could|
@@ -70,7 +70,7 @@ Esta página é destinada a armazenar todos os requisitos obtidos por meio das t
 | Identificador | Descrição                                           | Origem | Prioridade(MoSCoW) |
 | ------------- | --------------------------------------------------- | ------ | ------------------ |
 |RNF01|		O aplicativo deve ser intuitivo e fácil de usar	|[ENT01][link-ent], [INT08][link-int], [INT11][link-int] |Must|
-|RNF02|		O aplcativo deve ser fácil de aprender	|[ENT02][link-ent], [INT10][link-int], [INT11][link-int] |Must|
+|RNF02|		O aplicativo deve ser fácil de aprender	|[ENT02][link-ent], [INT10][link-int], [INT11][link-int] |Must|
 |RNF03|		O aplicativo deve seguro, assim protegendo os dados dos usuários |[INT07][link-int] |	Must|
 |RNF04|		O aplicativo deve ficar disponível 24/7	|[ENT11][link-ent] |Must|
 |RNF05|		O usuário deve consiguir acessar funcionalidades básicas, como buscar agências, rastrear objetos pelo código e simular preços e prazos sem fazer o login |[INT02][link-int]	|Should|
