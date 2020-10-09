@@ -17,7 +17,8 @@ nav:
           - StoryTelling v1: elicitacao/storytelling.md
   - Priorização:
       - MoSCoW & First Things First: priorizacao/requisitos_priorizacao.md
-
+  - Modelagem:
+      - Léxico v0.1: lexico/lexico.md  
 theme:
   name: material
   favicon: ./images/favicon.ico
