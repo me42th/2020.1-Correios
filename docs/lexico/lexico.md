@@ -12,7 +12,7 @@ Símbolos também possuem uma classificação, que pode ser :
 - - -
 
 ## C&L
-C&L foi a ferramenta utilizada para desenvolver o Léxicos encontrados no app dos Correios.	
+C&L foi a ferramenta utilizada para desenvolver os léxicos encontrados no app dos Correios.	
 O C&L:
 Foi inicialmente desenvolvido como um trabalho acadêmico e hoje evolui para um projeto de Software Livre. Sua responsabilidade é do Grupo de Engenharia de Requisitos, da Puc-Rio.
 
