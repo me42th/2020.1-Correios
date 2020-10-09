@@ -1,9 +1,13 @@
 # Léxico v0.1
-Atividade que visa elaborar modelos capazes de representar características ou comportamentos de um software.
-LAL - Léxico Ampliado da Linguagem - Trata-se de uma técnica que compõe os cenários de forma a descrever os símbolos de uma linguagem. Nesse caso, essa técnica descreve alguns termos relacionados ao software em questão. Cada símbolo tem um nome, uma noção e um impacto, sendo que :
-noção : é o que significa o símbolo (denotação);
-impacto : é o efeito do símbolo na aplicação ou o efeito de algo na aplicação sobre o símbolo (conotação).
-Símbolos também possuem uma classificação, que pode ser : estado ; verbo ; objeto ; sujeito.
+Atividade que visa elaborar modelos capazes de representar características ou comportamentos de um software.  
+**LAL - Léxico Ampliado da Linguagem -** Trata-se de uma técnica que compõe os cenários de forma a descrever os símbolos de uma linguagem. Nesse caso, essa técnica descreve alguns termos relacionados ao software em questão. Cada símbolo tem um nome, uma noção e um impacto, sendo que :  
+**noção** : é o que significa o símbolo (denotação);  
+**impacto** : é o efeito do símbolo na aplicação ou o efeito de algo na aplicação sobre o símbolo (conotação).  
+Símbolos também possuem uma classificação, que pode ser :   
+- **estado**;  
+- **verbo**;  
+- **objeto**;  
+- **sujeito**.   
 
 - - -
 
@@ -21,10 +25,9 @@ A aplicação utilizada como projeto inicial a ser 'evoluído' foi uma ferrament
 - - -
 
 ## Léxicos desenvolvidos
-Foi seguido o padrão da ferramenta. Em breve serão ajustadas para tabela
+Foi seguido o padrão da ferramenta. Em breve serão ajustadas para tabela.
 
 **Resumo:**  
-14 Léxicos   
 
 | Tipo   | Quantidade              |
 | ------ | ----------------------- |

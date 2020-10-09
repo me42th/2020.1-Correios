@@ -19,6 +19,7 @@ nav:
       - MoSCoW & First Things First: priorizacao/requisitos_priorizacao.md
   - Modelagem:
       - Léxico v0.1: lexico/lexico.md  
+      - Cenários v0.1: cenarios/cenarios.md
 theme:
   name: material
   favicon: ./images/favicon.ico
