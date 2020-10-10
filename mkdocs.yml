@@ -16,9 +16,9 @@ nav:
       - StoryTelling:
           - StoryTelling v1: elicitacao/storytelling.md
   - Priorização:
-      - MoSCoW & First Things First: priorizacao/requisitos_priorizacao.md
+      - MoSCoW & First Things First: priorizacao/priorizacao.md
   - Modelagem:
-      - Léxico v0.1: modelagem/lexico/lexico.md
+      - Léxico v0.1: modelagem/lexicos/lexicos.md
       - Cenários v0.1: modelagem/cenarios/cenarios.md
       - Casos de Uso: modelagem/casosDeUso/casosDeUso.md
 theme:

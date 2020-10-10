@@ -1,6 +1,11 @@
 # Cenários v0.1
+- - -
+
+## Introdução 
+
 Cenários são exemplos reais de como um sistema pode ser usado;  
 Eles devem incluir :  
+
 - Uma descrição da situação inicial;  
 - Uma descrição do fluxo normal de eventos;  
 - Uma descrição do que pode dar errado;  
@@ -22,7 +27,7 @@ A aplicação utilizada como projeto inicial a ser 'evoluído' foi uma ferrament
 
 - - -
 
-## Cenários desenvolvidos
+## Cenários Desenvolvidos
 Foi seguido o padrão da ferramenta. Em breve serão ajustadas para tabela.
 
 **Resumo:**  
@@ -63,8 +68,9 @@ Foi seguido o padrão da ferramenta. Em breve serão ajustadas para tabela.
 
 - - -
 
-# Histórico
+## Controle de versão
 
 | Data     | Versão | Descrição                                               | Autor(es)           |
 | -------- | ------ | ------------------------------------------------------- | ------------------- |
 | 08/10/20 | 0.1    | Criação da página e adição dos cenários desenvolvidos no C&L  | Nícalo Ribeiro |
+| 09/10/20 | 0.2    | Revisão da página  | Gustavo Nogueira |
