@@ -1,4 +1,7 @@
 # Especificação Suplementar
+
+- - -
+
 ### Finalidade  
 A finalidade deste documento é explicitar os requisitos não funcionais do aplicativo dos Correios que foram levantados pelas técnicas de elicitação e abrangendo requisitos de usabilidade, confiabilidade, desempenho e suportabilidade.  
 
@@ -29,7 +32,7 @@ As funcionalidades levantadas podem ser encontradas na seção de Elicitação (
 
 - - -
 
-## Histórico
+## Controle de versão
 
 | Data     | Versão | Descrição                                               | Autor(es)        |
 | -------- | ------ | ------------------------------------------------------- | ---------------- |
