@@ -34,8 +34,8 @@ As funcionalidades levantadas podem ser encontradas na seção de Elicitação (
 
 ## Controle de versão
 
-| Data     | Versão | Descrição                                               | Autor(es)        |
-| -------- | ------ | ------------------------------------------------------- | ---------------- |
-| 09/10/2020| 0.1    | Criação da Especificação Suplementar  | Gustavo Nogueira e Nícalo Ribeiro|
-| 09/10/2020| 0.2    | Revisão do documento  | Gustavo Nogueira |
-| 10/10/2020| 0.3    | Formatação da página  | Nícalo Ribeiro|
+| Data       | Versão | Descrição                            | Autor(es)                         |
+| ---------- | ------ | ------------------------------------ | --------------------------------- |
+| 09/10/2020 | 0.1    | Criação da Especificação Suplementar | Gustavo Nogueira e Nícalo Ribeiro |
+| 09/10/2020 | 0.2    | Revisão do documento                 | Gustavo Nogueira                  |
+| 10/10/2020 | 0.3    | Formatação da página                 | Nícalo Ribeiro                    |

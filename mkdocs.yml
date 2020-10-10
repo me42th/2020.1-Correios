@@ -8,6 +8,7 @@ nav:
   - Planejamento:
       - Roadmap: planejamento/roadmap.md
       - Ferramentas: planejamento/ferramentas.md
+  - Pontos de Controle: pontosDeControle/pontosDeControle.md
   - Pré-Rastreabilidade:
       - Rich Picture: preRastreabilidade/richpicture.md
   - Elicitação:

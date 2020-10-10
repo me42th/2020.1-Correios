@@ -24,20 +24,16 @@ Com o objetivo de fornecer soluções acessíveis, confiáveis e cada vez mais a
 ![img](./images/sobre-correios-2.png)
 - - -
 ## Contribuidores
-Matrícula | Nome | E-mail | Git | 
---------- | ---- | ------ | --- |
-180062026| Alan Marques Sousa | alan.sousa@prontonmail.com | alan-ms|
-180119818| Felipe Boccardi Silva Agustini | felipeb.agustini@gmail.com | Fealps |
-170144259 | Gustavo Nogueira Rodrigues| gustavonr.13@gmail.com | Gustavo-Nogueira |
-160016169 | Nicalo Ribeiro Dourado Araujo| nicalo63@gmail.com | nicaloribeiro |
-||Flavio Vieira Leao | | flaviovl|
+| Matrícula | Nome                           | E-mail                     | Git              |
+| --------- | ------------------------------ | -------------------------- | ---------------- |
+| 180119818 | Felipe Boccardi Silva Agustini | felipeb.agustini@gmail.com | Fealps           |
+| 170144259 | Gustavo Nogueira Rodrigues     | gustavonr.13@gmail.com     | Gustavo-Nogueira |
+| 160016169 | Nicalo Ribeiro Dourado Araujo  | nicalo63@gmail.com         | nicaloribeiro    |
 
 <div style="display:flex; justify-content:space-around">
-<img src="./images/contribuidores/alan.jpg" width="100" height="100" style="border-radius: 50%; margin: 5px"/>
 <img src="./images/contribuidores/felipe.jpg" width="100" height="100" style="border-radius: 50%; margin: 5px"/>
 <img src="./images/contribuidores/gustavo.jpg" width="100" height="100" style="border-radius: 50%; margin: 5px" />
 <img src="./images/contribuidores/nicalo.jpg" width="100" height="100" style="border-radius: 50%; margin: 5px" />
-<img src="./images/contribuidores/flavio.jpg" width="100" height="100" style="border-radius: 50%; margin: 5px" />
 </div>
 
 - - -
