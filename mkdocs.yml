@@ -21,6 +21,7 @@ nav:
       - Léxico v0.1: modelagem/lexicos/lexicos.md
       - Cenários v0.1: modelagem/cenarios/cenarios.md
       - Casos de Uso: modelagem/casosDeUso/casosDeUso.md
+      - Especificacao Suplementar: modelagem/especificacao/especificacaoSuplementar.md
 theme:
   name: material
   favicon: ./images/favicon.ico
