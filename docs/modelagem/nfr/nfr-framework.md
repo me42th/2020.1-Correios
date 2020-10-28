@@ -38,7 +38,8 @@ satisfeitos (CHUNG et al., 2000).
 
 - - -
 
-## Histórico
+## Controle de versão
+
 | Data     | Versão | Descrição                                               | Autor(es)           |
 | -------- | ------ | ------------------------------------------------------- | ------------------- |
 | 25/10/20 | 0.1    | Versão inicial dos NFRs  | Nícalo Ribeiro |
@@ -48,4 +49,5 @@ satisfeitos (CHUNG et al., 2000).
 - - - 
 
 ## Referências
-SILVA, R. (2019). NFR4ES : um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Universidade Federal De Pernambuco. Retrieved from https://attena.ufpe.br/handle/123456789/34150
+
+* SILVA, R. (2019). NFR4ES : um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Universidade Federal De Pernambuco. Retrieved from https://attena.ufpe.br/handle/123456789/34150
