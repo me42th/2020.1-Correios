@@ -23,6 +23,9 @@ nav:
       - Cenários v0.1: modelagem/cenarios/cenarios.md
       - Casos de Uso: modelagem/casosDeUso/casosDeUso.md
       - Especificação Suplementar: modelagem/especificacao/especificacaoSuplementar.md
+      - Ágil:
+        - Histórias de Usuário: modelagem/historiasDeUsuario/historiasDeUsuario.md
+        - Product Backlog: modelagem/backlog/backlog.md
 theme:
   name: material
   favicon: ./images/favicon.ico
