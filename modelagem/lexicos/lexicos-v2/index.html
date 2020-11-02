@@ -1,0 +1,1546 @@
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>Léxico v2 - Requisitos de Software - Correios</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.6a5ad368.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2094f3">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lexicos-v2" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="Requisitos de Software - Correios" class="md-header-nav__button md-logo" aria-label="Requisitos de Software - Correios">
+      
+  <img src="../../../images/logo-correios.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Requisitos de Software - Correios
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Léxico v2
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/Requisitos-de-Software/2020.1-Correios/" title="Ir ao repositório" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2020.1-Correios
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Requisitos de Software - Correios" class="md-nav__button md-logo" aria-label="Requisitos de Software - Correios">
+      
+  <img src="../../../images/logo-correios.png" alt="logo">
+
+    </a>
+    Requisitos de Software - Correios
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/Requisitos-de-Software/2020.1-Correios/" title="Ir ao repositório" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2020.1-Correios
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Planejamento
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Planejamento" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Planejamento
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../planejamento/roadmap/" title="Roadmap" class="md-nav__link">
+      Roadmap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../planejamento/ferramentas/" title="Ferramentas" class="md-nav__link">
+      Ferramentas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../pontosDeControle/pontosDeControle/" title="Pontos de Controle" class="md-nav__link">
+      Pontos de Controle
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Pré-Rastreabilidade
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Pré-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../preRastreabilidade/richpicture/" title="Rich Picture" class="md-nav__link">
+      Rich Picture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Elicitação
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../elicitacao/instrospeccao/" title="Instrospecção" class="md-nav__link">
+      Instrospecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../elicitacao/entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3">
+    
+    <label class="md-nav__link" for="nav-5-3">
+      StoryTelling
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="StoryTelling" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        <span class="md-nav__icon md-icon"></span>
+        StoryTelling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../elicitacao/storytelling/" title="StoryTelling v1" class="md-nav__link">
+      StoryTelling v1
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Priorização
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Priorização" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Priorização
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../priorizacao/priorizacao/" title="MoSCoW & First Things First" class="md-nav__link">
+      MoSCoW & First Things First
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+    
+    <label class="md-nav__link" for="nav-7">
+      Modelagem
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon"></span>
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-1" type="checkbox" id="nav-7-1" checked>
+    
+    <label class="md-nav__link" for="nav-7-1">
+      Léxico
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Léxico" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-1">
+        <span class="md-nav__icon md-icon"></span>
+        Léxico
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Léxico v2
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Léxico v2" class="md-nav__link md-nav__link--active">
+      Léxico v2
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cl" class="md-nav__link">
+    C&amp;L
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lexicos-desenvolvidos" class="md-nav__link">
+    Léxicos Desenvolvidos
+  </a>
+  
+    <nav class="md-nav" aria-label="Léxicos Desenvolvidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lexico-01" class="md-nav__link">
+    Léxico 01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-02" class="md-nav__link">
+    Léxico 02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-03" class="md-nav__link">
+    Léxico 03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-04" class="md-nav__link">
+    Léxico 04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-05" class="md-nav__link">
+    Léxico 05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-06" class="md-nav__link">
+    Léxico 06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-07" class="md-nav__link">
+    Léxico 07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-08" class="md-nav__link">
+    Léxico 08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-09" class="md-nav__link">
+    Léxico 09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-10" class="md-nav__link">
+    Léxico 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-11" class="md-nav__link">
+    Léxico 11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-12" class="md-nav__link">
+    Léxico 12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-13" class="md-nav__link">
+    Léxico 13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-14" class="md-nav__link">
+    Léxico 14
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controle-de-versao" class="md-nav__link">
+    Controle de versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lexicos/" title="Léxico v1" class="md-nav__link">
+      Léxico v1
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cenarios/cenarios/" title="Cenários v0.1" class="md-nav__link">
+      Cenários v0.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../casosDeUso/casosDeUso/" title="Casos de Uso" class="md-nav__link">
+      Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../especificacao/especificacaoSuplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-5" type="checkbox" id="nav-7-5">
+    
+    <label class="md-nav__link" for="nav-7-5">
+      Ágil
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Ágil" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-5">
+        <span class="md-nav__icon md-icon"></span>
+        Ágil
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../historiasDeUsuario/historiasDeUsuario/" title="Histórias de Usuário" class="md-nav__link">
+      Histórias de Usuário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../backlog/backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../nfr/nfr-framework/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cl" class="md-nav__link">
+    C&amp;L
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lexicos-desenvolvidos" class="md-nav__link">
+    Léxicos Desenvolvidos
+  </a>
+  
+    <nav class="md-nav" aria-label="Léxicos Desenvolvidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lexico-01" class="md-nav__link">
+    Léxico 01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-02" class="md-nav__link">
+    Léxico 02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-03" class="md-nav__link">
+    Léxico 03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-04" class="md-nav__link">
+    Léxico 04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-05" class="md-nav__link">
+    Léxico 05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-06" class="md-nav__link">
+    Léxico 06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-07" class="md-nav__link">
+    Léxico 07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-08" class="md-nav__link">
+    Léxico 08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-09" class="md-nav__link">
+    Léxico 09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-10" class="md-nav__link">
+    Léxico 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-11" class="md-nav__link">
+    Léxico 11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-12" class="md-nav__link">
+    Léxico 12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-13" class="md-nav__link">
+    Léxico 13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-14" class="md-nav__link">
+    Léxico 14
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controle-de-versao" class="md-nav__link">
+    Controle de versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Requisitos-de-Software/2020.1-Correios/edit/master/docs/modelagem/lexicos/lexicos-v2.md" title="Editar esta página" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="lexicos-v2">Léxicos v2</h1>
+<hr />
+<blockquote>
+<p>Essa é a <strong>segunda</strong> versão dos Léxicos<br />
+A primeira versão pode ser encontrada aqui : <a href="../lexicos/">Léxicos v1</a></p>
+</blockquote>
+<h2 id="introducao">Introdução</h2>
+<p>Atividade que visa elaborar modelos capazes de representar características ou comportamentos de um software.<br />
+<strong>LAL - Léxico Ampliado da Linguagem -</strong> Trata-se de uma técnica que compõe os cenários de forma a descrever os símbolos de uma linguagem. Nesse caso, essa técnica descreve alguns termos relacionados ao software em questão. Cada símbolo tem um nome, uma noção e um impacto, sendo que:<br />
+<strong>noção</strong> : é o que significa o símbolo (denotação);<br />
+<strong>impacto</strong> : é o efeito do símbolo na aplicação ou o efeito de algo na aplicação sobre o símbolo (conotação).  </p>
+<p>Símbolos também possuem uma classificação, que pode ser :   </p>
+<ul>
+<li><strong>estado</strong>;  </li>
+<li><strong>verbo</strong>;  </li>
+<li><strong>objeto</strong>;  </li>
+<li><strong>sujeito</strong>.   </li>
+</ul>
+<hr />
+<h2 id="cl">C&amp;L</h2>
+<p>C&amp;L foi a ferramenta utilizada para desenvolver os léxicos encontrados no app dos Correios. 
+O C&amp;L:
+Foi inicialmente desenvolvido como um trabalho acadêmico e hoje evolui para um projeto de Software Livre. Sua responsabilidade é do Grupo de Engenharia de Requisitos, da Puc-Rio.</p>
+<p>O objetivo desse projeto é estudar e analisar técnicas de evolução de software através de um experimento prático. </p>
+<p>A aplicação utilizada como projeto inicial a ser 'evoluído' foi uma ferramenta de Edição de Cenários e Léxico disponibilizada em http://springfield.genesis.puc-rio.br:81/~pes/.</p>
+<p><a href= "http://pes.inf.puc-rio.br/cel/index_old.htm" target="blank"> Página da ferramenta </a></p>
+<hr />
+<h2 id="lexicos-desenvolvidos">Léxicos Desenvolvidos</h2>
+<p>Foi seguido o padrão da ferramenta. Em breve serão ajustadas para tabela.</p>
+<p><strong>Resumo:</strong>  </p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Quantidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objeto</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Verbo</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Estado</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-01">Léxico 01</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 01</th>
+<th>L01</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>agência</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>São as agências dos Correios <br> Podem ser buscadas por um <u>usuário</u> em <u>buscar agência</u></td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Detalha os dados da agência <br> Pode ser <u>salva</u> para fácil acesso</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>correios, local, estação</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-02">Léxico 02</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 02</th>
+<th>L02</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>buscar agência</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Tarefa realizada pelo <u>usuário</u><br>Ocorre quando deseja-se encontrar alguma <u>agência</u> dos <u>correios</u> <br>A funcionalidade se encontra na página inicial</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Verbo</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>O <u>usuário</u> busca por <u>agência</u> próximo à sua localidade ou por endereço</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>procurar agência, buscar endereço</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-03">Léxico 03</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 03</th>
+<th>L03</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>dimensões</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>São as dimensões físicas de um <u>objeto</u> a ser postado</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Estado</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Dados necessários para realizar uma pré-<u>postagem</u> e simulação de <u>preços e prazos</u></td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>tamanho, peso, altura, largura</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-04">Léxico 04</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 04</th>
+<th>L04</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>encomenda</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>É uma carta, caixa, pacote ou qualquer tipo de objeto que possa ser enviado pelos <u>correios</u></td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Possui <u>dimensões</u></td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>objeto, produto</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-05">Léxico 05</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 05</th>
+<th>L05</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>efetuar login</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Libera acesso a algumas funcionalidades do aplicativo</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Verbo</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>O <u>usuário</u> pode efetuar o login caso queira utilizar algumas das funcionalidades específicas que necessitam de tal.</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>logar, acessar, entrar</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-06">Léxico 06</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 06</th>
+<th>L06</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>endereços</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Podem ser inseridos e salvos pelo <u>usuário</u></td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Contém endereço detalhado e descrição de um <u>local</u> <br> Pode ser utilizado na pré-<u>postagem</u> e ao <u>simular</u> preços e prazos</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>locais, destinos</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-07">Léxico 07</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 07</th>
+<th>L07</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>favoritada</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Ocorre quando um <u>usuário</u> favorita uma <u>agência</u> <br>A <u>agência</u> e suas informações ficam acessíveis de forma simples</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Estado</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Torna o acesso rápido e intuitivo <br> Informa dados detalhados da <u>agência</u> em questão</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>salva, destacada</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-08">Léxico 08</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 08</th>
+<th>L08</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>favoritar</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Quando o <u>usuário</u> favorita uma <u>agência</u> <br> É <u>salva</u> quando o <u>usuário</u> desejar <u>acessar</u> facilmente as informações de uma <u>agência</u> <br> A <u>agência</u> pode ser <u>favoritada</u> após ela ser encontrada nas buscas</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Verbo</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Facilitar a visualização de dados da <u>agência</u></td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>salvar, destacar</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-09">Léxico 09</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 09</th>
+<th>L09</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>mensagens</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Utilizadas pelo <u>usuário</u> <br> Ocorre quando um <u>usuário</u> deseja se comunicar diretamente com outro <br> As mensagens trocadas são privadas e necessitam de <u>login</u></td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>As mensagens ficam visíveis apenas para os envolvidos na conversa</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>direct, conversa, dm, trocar mensagem</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-10">Léxico 10</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 10</th>
+<th>L10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>pré-atendimento</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Tarefa realizada pelo <u>usuário</u> <br>Ocorre quando o <u>usuário</u> deseja realizar a pré-<u>postagem</u> de uma <u>encomenda</u> <br>É necessário informar todos os dados obrigatórios</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Verbo</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Poupa tempo ao encaminhar uma <u>encomenda</u> à <u>agência</u> <br> O <u>usuário</u> recebe informações à respeito de <u>preços e prazos</u></td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>agendar, marcar</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-11">Léxico 11</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 11</th>
+<th>L11</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>preços e prazos</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Permite ao <u>usuário</u> simular os preços e prazos de um <u>objeto</u> <br> Informa ao <u>usuário</u> o quanto será gasto para postar uma <u>encomenda</u> e em quanto tempo será <u>entregue</u> <br>A funcionalidade se encontra na tela inicial do aplicativo</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Verbo</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Informa valores e prazos a respeito de uma <u>encomenda</u> a ser enviada <br> O <u>usuário</u> precisa informar dados do <u>objeto</u> e endereço de entrega</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>simular, orçar, orçamento</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-12">Léxico 12</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 12</th>
+<th>L12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>rastrear</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>É realizada pelo <u>usuário</u> <br> Localiza a <u>encomenda</u> e informa seu trajeto ao destino  <br>A funcionalidade pode ser acessada na tela inicial do aplicativo</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Verbo</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>O <u>usuário</u> pode acompanhar o <u>andamento</u> de uma <u>encomenda</u> <br> A encomenda pode estar vinculada à conta do <u>usuário</u> ou pode ser encontrada via código de rastreio</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>acompanhar, localizar, rastreada, rastreio</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-13">Léxico 13</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 13</th>
+<th>L13</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>situação</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>É a situação da encomenda que está sendo <u>rastreada</u> <br>A encomanda pode estar em trânsito ou entregue</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Estado</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Complementa o <u>rastreio</u> da <u>encomenda</u></td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>andamento, entregue, trânsito</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="lexico-14">Léxico 14</h3>
+<table>
+<thead>
+<tr>
+<th>Léxico 14</th>
+<th>L14</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>usuário</td>
+</tr>
+<tr>
+<td>Noção</td>
+<td>Pessoa que utiliza o aplicativo <br> Não é necessário cadastro e <u>login</u> para algumas funcionalidades</td>
+</tr>
+<tr>
+<td>Classificação</td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td>Impacto(s)</td>
+<td>Realiza as ações no aplicativo</td>
+</tr>
+<tr>
+<td>Sinônimo(s)</td>
+<td>utilizador, pessoa, cliente</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="controle-de-versao">Controle de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01/11/20</td>
+<td>0.1</td>
+<td>Criação das tabelas de léxico</td>
+<td>Nícalo Ribeiro</td>
+</tr>
+<tr>
+<td>02/11/20</td>
+<td>0.2</td>
+<td>Criação e formatação da página</td>
+<td>Nícalo Ribeiro</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../../priorizacao/priorizacao/" title="MoSCoW & First Things First" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                MoSCoW & First Things First
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../lexicos/" title="Léxico v1" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Léxico v1
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
