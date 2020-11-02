@@ -14,7 +14,7 @@ satisfeitos (CHUNG et al., 2000).
 - - -  
 
 ## Metodologia
-* Para a criação dos gráficos, foi utilizado o site [Draw.io](www.draw.io);
+* Para a criação dos gráficos, foi utilizado o site <a href="https://draw.io/" target="blank">Draw.io</a>;
 * Os NFRs foram criados separadamente com base no documento de [Especificação Suplementar](../especificacao/especificacaoSuplementar.md);
 
 - - -
