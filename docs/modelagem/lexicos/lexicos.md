@@ -1,7 +1,8 @@
-# Léxicos v0.1
+# Léxicos v1
 
 - - -
-
+> Essa é a **primeira** versão dos Léxicos  
+> A segunda pode ser encontrada aqui: [Léxicos v2](./lexicos-v2.md)
 ## Introdução
 
 Atividade que visa elaborar modelos capazes de representar características ou comportamentos de um software.  

@@ -19,7 +19,9 @@ nav:
   - Priorização:
       - MoSCoW & First Things First: priorizacao/priorizacao.md
   - Modelagem:
-      - Léxico v0.1: modelagem/lexicos/lexicos.md
+      - Léxico:
+          - Léxico v2: modelagem/lexicos/lexicos-v2.md
+          - Léxico v1: modelagem/lexicos/lexicos.md
       - Cenários v0.1: modelagem/cenarios/cenarios.md
       - Casos de Uso: modelagem/casosDeUso/casosDeUso.md
       - Especificação Suplementar: modelagem/especificacao/especificacaoSuplementar.md
