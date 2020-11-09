@@ -32,8 +32,12 @@ nav:
         - Product Backlog: modelagem/backlog/backlog.md
       - NFR Framework: modelagem/nfr/nfr-framework.md
   - Análise:
+      - Verificação: 
+        - Rich Picture: analise/verificacao/richPicture.md
+        - Backlog: analise/verificacao/backlog.md
+        - NFR: analise/verificacao/nfr.md
       - Validação:
-        - Prototipagem: validacao/validacao.md
+        - Prototipagem: analise/validacao/validacao.md
 theme:
   name: material
   favicon: ./images/favicon.ico

@@ -7,8 +7,7 @@
 Respositório da disciplina **Requisitos de Software**, com o objetivo de levantar os requisitos funcionais e não funcionais do aplicativo dos **Correios** (*[PlayStore](https://play.google.com/store/apps/details?id=br.com.correios.preatendimento&hl=pt_BR)*, *[AppStore](https://apps.apple.com/br/app/correios/id1399617917#?platform=iphone)*), assim como levantar a pré-rastreablidade, elicitação, modelagem, análise e pós-rastreabilidade e outros artefatos necessários para a disciplina.
 - - -
 # Sobre o aplicativo dos Correios
-Com o objetivo de fornecer soluções acessíveis, confiáveis e cada vez mais adaptadas ao perfil dos consumidores, os Correios aprimoraram a interface de seu aplicativo que oferece facilidades como realizar a pré-postagem de sua encomenda, obtendo o número de identificação que deverá ser apresentado em qualquer agência dos Correios, onde será finalizado o atendimento; buscar as agências mais próximas de sua localização; simular preços e prazos para cada tipo de postagem; incluir e salvar dados dos objetos informando o código de rastreamento e
-visualizar a data prevista da entrega de sua encomenda;
+Com o objetivo de fornecer soluções acessíveis, confiáveis e cada vez mais adaptadas ao perfil dos consumidores, os Correios aprimoraram a interface de seu aplicativo que oferece facilidades como realizar a pré-postagem de sua encomenda, obtendo o número de identificação que deverá ser apresentado em qualquer agência dos Correios, onde será finalizado o atendimento; buscar as agências mais próximas de sua localização; simular preços e prazos para cada tipo de postagem; incluir e salvar dados dos objetos informando o código de rastreamento e visualizar a data prevista da entrega de sua encomenda.
 - - -
 # Equipe
 

@@ -17,7 +17,7 @@ Com o objetivo de fornecer soluções acessíveis, confiáveis e cada vez mais a
 • Incluir e salvar dados dos objetos informando o código de rastreamento;  
 • Visualizar a data prevista da entrega de sua encomenda;  
 • Acompanhar o rastreamento de seu objeto através de recebimento de notificação;  
-• Acessar o serviço de Minhas Mensagens por meio da qual os Usuários (Destinatários) poderão consultar suas mensagens de caráter formal/oficial, enviadas por Emissores (Remetentes);  
+• Acessar o serviço de Minhas Mensagens por meio da qual os Usuários (Destinatários) poderão consultar suas mensagens de caráter formal/oficial, enviadas por Emissores (Remetentes).
 
 
 ![img](./images/sobre-correios.png)

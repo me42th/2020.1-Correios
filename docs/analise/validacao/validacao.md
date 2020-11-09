@@ -1,5 +1,10 @@
 # Validação
- A validação procura assegurar que o sistema atenda as expectativas e necessidades do cliente. A pergunta principal que deve ser feita é: Estamos construindo o produto correto?  
+---
+## Introdução
+
+A validação procura assegurar que o sistema atenda as expectativas e necessidades do cliente. A pergunta principal que deve ser feita é: Estamos construindo o produto correto?  
+
+---
 
 ## Metodologia
 * Para a criação desse documento, foi escolhido a **Prototipação**;
