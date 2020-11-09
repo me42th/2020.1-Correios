@@ -36,6 +36,9 @@ Esta página é reservada para documentar os pontos de controle do projeto da di
 
 ### PC 05 - Análise de Requisitos
 
+<div style="display:flex; justify-content:space-around">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/k2sDx4Yxq2k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### PC 06 - Entrega Final
 
