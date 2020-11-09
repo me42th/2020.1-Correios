@@ -31,6 +31,9 @@ nav:
         - Histórias de Usuário: modelagem/historiasDeUsuario/historiasDeUsuario.md
         - Product Backlog: modelagem/backlog/backlog.md
       - NFR Framework: modelagem/nfr/nfr-framework.md
+  - Análise:
+      - Validação:
+        - Prototipagem: validacao/validacao.md
 theme:
   name: material
   favicon: ./images/favicon.ico
