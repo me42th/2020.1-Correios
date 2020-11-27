@@ -40,7 +40,7 @@ nav:
       - Validação:
         - Prototipagem: analise/validacao/validacao.md
   - Pós-Rastreabilidade:
-    - Backward From: posRastreabilidade/backwardFrom.md
+    - Backward-From: posRastreabilidade/backwardFrom.md
     - Forward-From: posRastreabilidade/forwardFrom.md
 
 theme:
