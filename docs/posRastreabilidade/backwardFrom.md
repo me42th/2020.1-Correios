@@ -65,4 +65,4 @@
 <!--Links-->
 [link-ce]: https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/
 [link-uc]: https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/
-[link-us]: https://requisitos-de-software.github.io/2020.1-Correios//modelagem/historiasDeUsuario/historiasDeUsuario/
+[link-us]: https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/
