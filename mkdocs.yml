@@ -17,7 +17,8 @@ nav:
       - StoryTelling:
           - StoryTelling v1: elicitacao/storytelling.md
   - Priorização:
-      - MoSCoW & First Things First: priorizacao/priorizacao.md
+      - MoSCoW & First Things First v2: priorizacao/priorizacao-v2.md
+      - MoSCoW & First Things First v1: priorizacao/priorizacao-v1.md
   - Modelagem:
       - Léxicos:
           - Léxico - v2: modelagem/lexicos/lexicos-v2.md
@@ -38,6 +39,10 @@ nav:
         - NFR: analise/verificacao/nfr.md
       - Validação:
         - Prototipagem: analise/validacao/validacao.md
+  - Pós-Rastreabilidade:
+    - Backward From: posRastreabilidade/backwardFrom.md
+    - Forward-From: posRastreabilidade/forwardFrom.md
+
 theme:
   name: material
   favicon: ./images/favicon.ico

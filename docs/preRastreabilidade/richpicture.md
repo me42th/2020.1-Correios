@@ -12,7 +12,7 @@ Não há formalidades sobre a confecção de um Rich Picture, mas é boa prátic
   
 ### Versão 0.1
 
-![](./images/../imagens/RichPicture%20v1.png)
+![](./images/../images/RichPicture%20v1.png)
 
 - - -
 

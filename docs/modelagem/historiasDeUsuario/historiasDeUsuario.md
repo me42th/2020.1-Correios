@@ -12,6 +12,10 @@
 
 É uma grande história de usuário, mas tão grande que levaria mais de uma Sprint para ser concluída, então um Épico deve ser fatiado/quebrado em pedaços menores(Histórias de Usuários menores) de forma que possam ser estimadas, priorizados e desenvolvidos em um Sprint.
 
+### Feature
+
+O objetivo de uma Feature é realizar um Épico, podem haver 1 ou mais features agrupados sob um Épico. Uma Feature agrupa 1 ou muitas User Stories (histórias equivalem a requisitos funcionais) que estão no contexto da Feature.
+
 ### História de usuário
 
 User Story ou “história de usuário” é uma descrição concisa de uma necessidade do usuário do produto (ou seja, de um “requisito”) sob o ponto de vista desse usuário. A User Story busca descrever essa necessidade de uma forma simples e leve.
@@ -24,22 +28,9 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
 
 ## Legenda
 
-| Código | Significado           |
+| Código | Significado  |
 | ------ | ------------ |
-| EP     | Épico        |
 | US     | User Story   |
-
-
-## Tabela de Épicos
-
-| ID	| Descrição	| Tema |
-|-------|-----------|------|
-| EP01	| Como usuário, eu quero ter a minha conta no app, para que eu possa utilizar todos os recursos da aplicação. |	Conta Pessoal |
-| EP02	| Como usuário, eu quero realizar pré-postagens, para que eu possa agilizar o meu atendimento em uma agência. | Pré-Postagens |
-| EP03	| Como usuário, eu quero rastrear meus objetos, para que eu possa acompanhar a entrega e saber quando eles serão entregues. | Rastreamento |
-| EP04	| Como usuário, eu quero simular uma postagem, para que eu possa comparar os serviços disponíveis e escolher o que melhor me atende. | Preços e Prazos |
-| EP05 | Como usuário, eu quero ter uma lista de endereços, para que eu possa agilizar o processo criação de pré-postagens. | Endereços |
-| EP06 | Como usuário, eu quero saber quais agências estão próximas da minha localização, para que eu possa ir até uma das agências e finalizar a postagem do meu objeto.	| Agências |
 
 ## Tabela de Histórias de Usuário
 
@@ -62,13 +53,15 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
     <thead>
         <tr>
             <th>Épico</th>
+            <th>Feature</th>
             <th>ID</th>
             <th>Descrição | Critérios de Aceitação</th>
         </tr>
     <thead>
     <tbody>
         <tr>
-            <td rowspan="7" class="column">EP01</td>
+            <td rowspan="3" class="column">Acesso à aplicação</td>
+            <td rowspan="1" class="column">Cadastro</td>
             <td class="column">US01</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -85,23 +78,8 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr>
         <tr>
+            <td rowspan="2" class="column">Login</td>      
             <td class="column">US02</td>
-            <td>
-                <strong> Descrição </strong><br/>
-                <span>
-                    Como usuário, eu quero cancelar a minha conta quando não precisar mais do app.
-                </span>
-                <hr class="hr"/>
-                <strong> Critérios de Aceitação</strong><br/>
-                A aplicação deve: 
-                <ul class="ul">
-                    <li>Alertar o usuário que o cancelamento é irreversível;</li>
-                    <li>Botão de cancelar conta.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td class="column">US03</td>
             <td>
                 <strong> Descrição </strong><br/>
                 <span>
@@ -120,6 +98,24 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr>
         <tr>
+            <td class="column">US03</td>
+            <td>
+                 <strong> Descrição </strong><br/>
+                <span>
+                    Como usuário, eu quero recuperar minha senha, para que eu possa usufruir todas as funcionalidades do app novamente.
+                </span>
+                <hr class="hr"/>
+                <strong> Critérios de Aceitação</strong><br/>
+                A aplicação deve: 
+                <ul class="ul">
+                    <li>Solicitar o cpf do usuário;</li>
+                    <li>Solicitar a forma de recuperação(código de recuperação que pode ser envidado para o email ou telefone cadastrado).</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="column">Conta pessoal</td>
+            <td rowspan="1" class="column">Logout</td>
             <td class="column">US04</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -135,18 +131,19 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr>
         <tr>
+            <td rowspan="3" class="column">Manter conta</td>
             <td class="column">US05</td>
             <td>
-                <strong> Descrição </strong><br/>
+              <strong> Descrição </strong><br/>
                 <span>
-                    Como usuário, eu quero recuperar minha senha, para que eu possa usufruir todas as funcionalidades do app novamente.
+                    Como usuário, eu quero cancelar a minha conta quando não precisar mais do app.
                 </span>
                 <hr class="hr"/>
                 <strong> Critérios de Aceitação</strong><br/>
                 A aplicação deve: 
                 <ul class="ul">
-                    <li>Solicitar o cpf do usuário;</li>
-                    <li>Solicitar a forma de recuperação(código de recuperação que pode ser envidado para o email ou telefone cadastrado).</li>
+                    <li>Alertar o usuário que o cancelamento é irreversível;</li>
+                    <li>Botão de cancelar conta.</li>
                 </ul>
             </td>
         </tr>
@@ -181,7 +178,8 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr>
         <tr>
-            <td rowspan="3" class="column">EP02</td>
+            <td rowspan="3" class="column">Pré-atendimento</td>
+            <td rowspan="3" class="column">Manter pré-postagens</td>
             <td class="column">US08</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -238,7 +236,8 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr>  
         <tr>
-            <td rowspan="5" class="column">EP03</td>
+            <td rowspan="5" class="column">Acompanhar objetos</td>
+            <td rowspan="4" class="column">Rastreamento de objetos</td>
             <td class="column">US11</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -306,6 +305,7 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr> 
         <tr>
+            <td rowspan="1" class="column">Notificações de entrega</td>
             <td class="column">US15</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -321,7 +321,8 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr> 
         <tr>
-            <td rowspan="1" class="column">EP04</td>
+            <td rowspan="1" class="column">Simulação</td>
+            <td rowspan="1" class="column">Simular preços e prazos</td>
             <td class="column">US16</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -339,7 +340,8 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr>
         <tr>
-            <td rowspan="4" class="column">EP05</td>
+            <td rowspan="4" class="column">Meus endereços</td>
+            <td rowspan="4" class="column">Manter endereços</td>
             <td class="column">US17</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -405,7 +407,8 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr>
         <tr>
-            <td rowspan="5" class="column">EP06</td>
+            <td rowspan="5" class="column">Agências</td>
+            <td rowspan="2" class="column">Encontrar agências próximas</td>
             <td class="column">US21</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -440,6 +443,7 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
             </td>
         </tr> 
         <tr>
+            <td rowspan="3" class="column">Manter agências favoritas</td>
             <td class="column">US23</td>
             <td>
                 <strong> Descrição </strong><br/>
@@ -495,6 +499,7 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
 | Data     | Versão | Descrição                             | Autor(es)        |
 | -------- | ------ | ------------------------------------- | ---------------- |
 | 26/10/20 | 0.1    | Adição da primeira versão do artefato | Gustavo Nogueira |
+| 26/11/20 | 0.2    | Adição de ajustes na página           | Gustavo Nogueira |
 
 ---
 
@@ -503,3 +508,5 @@ As histórias do usuário em geral são expressas em uma frase simples, como as 
 * NUNES, Daniel. O QUE SÃO ÉPICOS, TEMAS E ESTÓRIAS DE USUÁRIOS?. ERPAgile. Disponível em: <http://erpagile.com.br/EAP/o-que-sao-epicos-temas-e-estorias-de-usuarios/>. Acesso em: 26 de outubro de 2020.
 
 * REHKOPF, Max. Histórias de usuários com exemplos e template. Atlassian. Disponível em: <https://www.atlassian.com/br/agile/project-management/user-stories>. Acesso em: 26 de outubro de 2020.
+
+* VENTURA, Plínio. Epic, Feature e User Story (Epico, Funcionalidade e História de Usuário). Até o momento. Disponível em: <https://www.ateomomento.com.br/epic-feature-e-user-story/>. Acesso em: 26 de novembro de 2020.

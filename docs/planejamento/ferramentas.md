@@ -4,13 +4,13 @@
 
 ### _Telegram_
 
-<img src="../imagens/telegram-logo.png" height="100" width="100">
+<img src="../images/telegram-logo.png" height="100" width="100">
 
 - Utilizado para a comunicação rápida entre os membros da equipe
 
 ### _Hangouts_
 
-<img src="../imagens/hangouts-logo.png" height="100" width="100">
+<img src="../images/hangouts-logo.png" height="100" width="100">
 
 - Utilizado para reuniões entre os membros da equipe para a realização de planejamentos e atividades.
 
@@ -20,25 +20,25 @@
 
 ### _GitHub_
 
-<img src="../imagens/github-logo.png" height="100" width="100">
+<img src="../images/github-logo.png" height="100" width="100">
 
 - Utilizado para o controle de versão da documentação produzida no andamento do projeto.
 
 ### _ZenHub_
 
-<img src="../imagens/zenhub-logo.png" height="100" width="100">
+<img src="../images/zenhub-logo.png" height="100" width="100">
 
 - Utilizado para o controle e distribuição de atividades entre os membros da equipe.
 
 ### _Google Drive_
 
-<img src="../imagens/googledrive-logo.png" height="100" width="100">
+<img src="../images/googledrive-logo.png" height="100" width="100">
 
 - Utilizado para a criação e compartilhamento de documentos antes de serem enviados ao repositório.
 
 ### _MkDocs_
 
-<img src="../imagens/mkdocs-logo.png" height="100" width="100">
+<img src="../images/mkdocs-logo.png" height="100" width="100">
 
 - Utilizado para gerar o site estático da documentação
 
