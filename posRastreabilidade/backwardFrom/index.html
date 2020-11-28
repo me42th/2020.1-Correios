@@ -840,9 +840,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tabela-de-requisitos-funcionais" class="md-nav__link">
-    Tabela de Requisitos Funcionais
+  <a href="#matriz-de-rastreabilidade" class="md-nav__link">
+    Matriz de Rastreabilidade
   </a>
+  
+    <nav class="md-nav" aria-label="Matriz de Rastreabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    Requisitos Funcionais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    Requisitos Não Funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -922,9 +942,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tabela-de-requisitos-funcionais" class="md-nav__link">
-    Tabela de Requisitos Funcionais
+  <a href="#matriz-de-rastreabilidade" class="md-nav__link">
+    Matriz de Rastreabilidade
   </a>
+  
+    <nav class="md-nav" aria-label="Matriz de Rastreabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    Requisitos Funcionais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    Requisitos Não Funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -962,6 +1002,8 @@
                 <h1 id="backward-from">Backward-From</h1>
 <hr />
 <h2 id="introducao">Introdução</h2>
+<p>O rastreamento de requisitos é utilizado para prover relacionamentos entre requisitos, arquitetura e implementação final do sistema e possibilita uma adequada compreensão dos relacionamentos de dependência entre requisitos e através dos artefatos de requisitos, de arquitetura e de implementação.</p>
+<p>Rastreabilidade backward-from (para trás, a partir de), ligando requisitos às suas fontes.</p>
 <hr />
 <h2 id="legenda">Legenda</h2>
 <table>
@@ -974,224 +1016,203 @@
 <tbody>
 <tr>
 <td>RF</td>
-<td>Requisitos Funcionais</td>
+<td>Requisito Funcional</td>
 </tr>
 <tr>
-<td>UC</td>
-<td>Use Case(Caso de Uso)</td>
+<td>RNF</td>
+<td>Requisito Não Funcional</td>
 </tr>
 <tr>
-<td>FP</td>
-<td>Fluxo Principal</td>
+<td>ENT</td>
+<td>Entrevista</td>
 </tr>
 <tr>
-<td>FA</td>
-<td>Fluxo Alternativo</td>
+<td>INT</td>
+<td>Introspecção</td>
 </tr>
 <tr>
-<td>FE</td>
-<td>Fluxo de Exceção</td>
-</tr>
-<tr>
-<td>PE</td>
-<td>Ponto de Extensão</td>
-</tr>
-<tr>
-<td>CE</td>
-<td>Cenário</td>
-</tr>
-<tr>
-<td>US</td>
-<td>User Story</td>
+<td>ST</td>
+<td>Storytelling</td>
 </tr>
 </tbody>
 </table>
-<h2 id="tabela-de-requisitos-funcionais">Tabela de Requisitos Funcionais</h2>
+<h2 id="matriz-de-rastreabilidade">Matriz de Rastreabilidade</h2>
+<h3 id="requisitos-funcionais">Requisitos Funcionais</h3>
 <table>
 <thead>
 <tr>
-<th>Código</th>
+<th>Identificador</th>
 <th>Descrição</th>
-<th>Cenário(s)</th>
-<th>Caso(s) de Uso</th>
-<th>História de Usuário</th>
+<th>Origem</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>RF01</td>
 <td>O aplicativo deve permitir o cadastro de usuários</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE03</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC02-PE02</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US01</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT04</a></td>
 </tr>
 <tr>
 <td>RF02</td>
 <td>O aplicativo deve permitir o usuário fazer login</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE05</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC01</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US02</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT05</a></td>
 </tr>
 <tr>
 <td>RF03</td>
 <td>O aplicativo deve permitir o usuário alterar sua senha de acesso</td>
-<td>-</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC01-PE01</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US03</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT03</a></td>
 </tr>
 <tr>
 <td>RF04</td>
 <td>O aplicativo deve permitir o usuário sair da conta(logout)</td>
-<td>-</td>
-<td>-</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US04</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT04</a></td>
 </tr>
 <tr>
 <td>RF05</td>
 <td>O aplicativo deve permitir o usuário cancelar sua conta</td>
-<td>-</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC10</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US05</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT13</a></td>
 </tr>
 <tr>
 <td>RF06</td>
 <td>O aplicativo deve permitir o usuário consultar os seus dados pessoais</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE04</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC09</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US06</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT12</a></td>
 </tr>
 <tr>
 <td>RF07</td>
 <td>O aplicativo deve permitir o usuário alterar os seus dados pessoais</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE04</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC09-PE09</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US07</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT12</a></td>
 </tr>
 <tr>
 <td>RF08</td>
 <td>O aplicativo deve permitir o usuário consultar as pré-postagens já cadastradas</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE08</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC06</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC06-FP06</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC06-FA04</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US08</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT15</a></td>
 </tr>
 <tr>
 <td>RF09</td>
 <td>O aplicativo deve permitir o usuário cadastrar pré-postagens</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE06</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC06</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC07-FP10</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US09</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT17</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT18</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST11</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST12</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST14</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT09</a></td>
 </tr>
 <tr>
 <td>RF10</td>
 <td>O aplicativo deve permitir o usuário excluir suas pré-postagens</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE08</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC06</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC06-FP08</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US10</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT16</a></td>
 </tr>
 <tr>
 <td>RF11</td>
 <td>O aplicativo deve permitir o usuário buscar/rastrear objetos</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE09</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE10</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC03</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US11</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT27</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT30</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST01</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT04</a></td>
 </tr>
 <tr>
 <td>RF12</td>
 <td>Ao rastrear um objeto, o aplicativo deve permitir o usuário salvar um objeto na sua lista de objetos</td>
-<td>-</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC03-PE04</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US12</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT28</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT05</a></td>
 </tr>
 <tr>
 <td>RF13</td>
 <td>O aplicativo deve permitir o usuário visualizar os objetos entregues</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE11</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC03-PE05</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US13</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT31</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST03</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST05</a></td>
 </tr>
 <tr>
 <td>RF14</td>
 <td>O aplicativo deve permitir o usuário visualizar os objetos em trânsito</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE11</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC03-PE04</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US14</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT31</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST02</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST03</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST05</a></td>
 </tr>
 <tr>
 <td>RF15</td>
 <td>Ao rastrear um objeto, o aplicativo deve enviar notificações, caso o usuário tenha interesse, referentes ao status de um objeto</td>
-<td>-</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC03</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US15</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT32</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT06</a></td>
 </tr>
 <tr>
 <td>RF16</td>
 <td>O aplicativo deve permitir o usuário realizar simulações de postagens, assim conhecendo os preços e os prazos de cada modalidade de entrega</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE12</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC05</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US16</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT35</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT36</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT37</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT38</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST09</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST10</a></td>
 </tr>
 <tr>
 <td>RF17</td>
 <td>O aplicativo deve permitir o usuário consultar os endereços cadastrados</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE06</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC07-FP09</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC07-FA06</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US17</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT43</a></td>
 </tr>
 <tr>
 <td>RF18</td>
 <td>O aplicativo deve permitir o usuário cadastrar endereços</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE06</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC07-FP10</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US18</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT44</a></td>
 </tr>
 <tr>
 <td>RF19</td>
 <td>O aplicativo deve permitir o usuário editar endereços</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE06</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC07-FP11</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US19</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT45</a></td>
 </tr>
 <tr>
 <td>RF20</td>
 <td>O aplicativo deve permitir o usuário excluir endereços</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE06</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC07-FP12</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US20</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT46</a></td>
 </tr>
 <tr>
 <td>RF21</td>
 <td>O aplicativo deve permitir o usuário buscar as agências mais próximas em um raio de até 10 km</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE02</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC04-FA03</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC04-FP04</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US21</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT21</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT22</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT23</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST06</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT07</a></td>
 </tr>
 <tr>
 <td>RF22</td>
 <td>Ao buscar agências, o aplicativo deve permitir o usuário selecionar as agências exibidas no mapa, assim tendo acesso as informações de uma agência</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE02</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC04-PE06</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US22</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT26</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST07</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/storytelling/#requisitos-elicitados">ST08</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT08</a></td>
 </tr>
 <tr>
 <td>RF23</td>
 <td>O aplicativo deve permitir o usuário consultar as suas agências favoritas</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE01</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC08-FP13</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US23</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT26</a></td>
 </tr>
 <tr>
 <td>RF24</td>
 <td>O aplicativo deve permitir o usuário adicionar agências aos favoritos</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE01</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC04-PE07</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US24</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT42</a></td>
 </tr>
 <tr>
 <td>RF25</td>
 <td>O aplicativo deve permitir o usuário remover agências aos favoritos</td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/cenarios/cenarios-v2/">CE01</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/casosDeUso/casosDeUso/">UC08-PE08</a></td>
-<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/modelagem/historiasDeUsuario/historiasDeUsuario/">US25</a></td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT42</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h3>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Descrição</th>
+<th>Origem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF01</td>
+<td>O aplicativo deve ser intuitivo e fácil de usar</td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT01</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT08</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT11</a></td>
+</tr>
+<tr>
+<td>RNF02</td>
+<td>O aplicativo deve ser fácil de aprender</td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT02</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT10</a>, <a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT11</a></td>
+</tr>
+<tr>
+<td>RNF03</td>
+<td>O aplicativo deve seguro, assim protegendo os dados dos usuários</td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT07</a></td>
+</tr>
+<tr>
+<td>RNF04</td>
+<td>O aplicativo deve ficar disponível 24/7</td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT11</a></td>
+</tr>
+<tr>
+<td>RNF05</td>
+<td>O usuário deve consiguir acessar funcionalidades básicas, como buscar agências, rastrear objetos pelo código e simular preços e prazos sem fazer o login</td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/instrospeccao/#requisitos-elicitados">INT02</a></td>
+</tr>
+<tr>
+<td>RNF06</td>
+<td>O aplicativo deve agilizar o processo de postagem de um objeto</td>
+<td><a href="https://requisitos-de-software.github.io/2020.1-Correios/elicitacao/entrevista/#requisitos-elicitados">ENT10</a></td>
 </tr>
 </tbody>
 </table>
@@ -1210,12 +1231,20 @@
 <td>26/11/20</td>
 <td>0.1</td>
 <td>Adição da primeira versão da página</td>
-<td>Nícalo Ribeiro</td>
+<td>Gustavo Nogueira</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h2 id="referencias">Referências</h2>
+<ul>
+<li>
+<p>SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 26. 2º/2019. 44 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
+</li>
+<li>
+<p>LEITE, Julio. Rastreabilidade de Requisitos. Disponível em: <a href="http://www.dbd.puc-rio.br/depto_informatica/05_20_sayao.pdf">http://www.dbd.puc-rio.br/depto_informatica/05_20_sayao.pdf</a>. Acesso em: 26 de novembro de 2020.</p>
+</li>
+</ul>
 <!--Links-->
                 
               
