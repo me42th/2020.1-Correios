@@ -42,6 +42,9 @@ Esta página é reservada para documentar os pontos de controle do projeto da di
 
 ### PC 06 - Entrega Final
 
+<div style="display:flex; justify-content:space-around">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/QHBHRcEFN0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 - - - 
 
